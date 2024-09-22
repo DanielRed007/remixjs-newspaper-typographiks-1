@@ -1,12 +1,14 @@
-import { FC } from "react";
+import { FC, Fragment } from "react";
 
 interface Props {}
 
 const HomeMediumRow: FC<Props> = () => {
   return (
-    <div className='bg-red-500 h-[400px] text-white flex justify-center items-center'>
-      Row 1
-    </div>
+    <Fragment>
+      <div className='bg-blue-500 h-[700px] text-white flex justify-center items-center'>
+        Row 3
+      </div>
+    </Fragment>
   );
 };
 
