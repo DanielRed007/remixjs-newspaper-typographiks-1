@@ -7,10 +7,10 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function About() {
+export default function Program() {
   return (
     <div className='max-w-4xl mx-auto p-6'>
-      <h1 className='text-3xl font-bold text-gray-200 mb-4'>About</h1>
+      <h1 className='text-3xl font-bold text-gray-200 mb-4'>Program</h1>
 
       <h2 className='text-xl text-gray-400 mb-4'>
         Nuestro Compromiso y Valores

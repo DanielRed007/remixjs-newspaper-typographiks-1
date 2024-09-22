@@ -12,9 +12,8 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className='min-h-screen bg-gray-100 flex justify-center items-center'>
-      <div className='w-full grid grid-rows-3 gap-0 bg-white'>
-        <HomeUpperRow />
+    <div className=''>
+      <div className='w-full grid grid-rows-[auto,auto,auto] gap-0 bg-white'>
         <HomeMediumRow />
         <HomeFootRow />
       </div>
