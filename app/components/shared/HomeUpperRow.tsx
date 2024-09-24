@@ -8,13 +8,13 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"; // Install H
 
 export default function Navbar() {
   return (
-    <Disclosure as='nav' className='bg-gray-800'>
+    <Disclosure as='nav' className='bg-sky-500'>
       {({ open }) => (
         <>
           <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
             <div className='flex h-16 justify-between items-center'>
               {/* Logo or Brand Name */}
-              <div className='text-white text-lg font-semibold'>
+              <div className='text-black text-2xl font-semibold'>
                 <Link to='/'>Feria do Livro do Porto</Link>
               </div>
 
@@ -22,13 +22,13 @@ export default function Navbar() {
               <div className='hidden sm:flex space-x-4'>
                 <Link
                   to='/program'
-                  className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  className='text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
                 >
                   Program
                 </Link>
                 <Link
                   to='/about'
-                  className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  className='text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
                 >
                   About
                 </Link>
