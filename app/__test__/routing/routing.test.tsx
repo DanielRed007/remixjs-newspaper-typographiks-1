@@ -38,5 +38,5 @@ test("renders home page and navigates to about page", () => {
   );
 
   // Verify that the about page is rendered
-  expect(screen.getByText(/About/i)).toBeInTheDocument();
+  expect(screen.getByText(/Nossa Feira/i)).toBeInTheDocument();
 });
