@@ -33,31 +33,121 @@ const HomeMediumRow: FC = () => {
               </div>
             </div>
           </div>
-          <div className='bg-black text-white grid grid-rows-2 w-full h-full'>
-            {/* First Row */}
+          <div className='bg-black grid grid-rows-2 w-full h-full'>
             <div className='flex justify-end items-center p-8'>
-              <div className='text-right'>
-                <h1 className='text-3xl md:text-5xl font-bold'>Big Title</h1>
-                <h2 className='text-xl md:text-2xl font-bold'>
-                  Subtitle in Bold
-                </h2>
-                <p className='mt-4 text-sm md:text-base lg:text-lg'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+              <div className='grid grid-cols-1 md:grid-cols-3 gap-8 text-right'>
+                <div className='grid-block'>
+                  <h1 className='text-3xl text-gray-400 md:text-5xl font-bold'>
+                    Big Title 1
+                  </h1>
+                  <h2 className='text-xl md:text-2xl text-pink-600 font-bold font-light'>
+                    Subtitle in Bold 1
+                  </h2>
+                  <p className='mt-4 text-sm leading-tight'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                  <div className='mt-4 flex justify-end'>
+                    <a
+                      href='/link-1'
+                      className='text-pink-600 hover:underline text-sm md:text-base lg:text-lg'
+                    >
+                      Read More
+                    </a>
+                  </div>
+                </div>
+                <div className='grid-block'>
+                  <h1 className='text-3xl text-gray-400 md:text-5xl font-bold'>
+                    Big Title 2
+                  </h1>
+                  <h2 className='text-xl text-yellow-600 md:text-2xl font-bold font-light'>
+                    Subtitle in Bold 2
+                  </h2>
+                  <p className='mt-4 text-sm leading-tight'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                  <div className='mt-4 flex justify-end'>
+                    <a
+                      href='/link-2'
+                      className='text-yellow-600 hover:underline text-sm md:text-base lg:text-lg'
+                    >
+                      Read More
+                    </a>
+                  </div>
+                </div>
+                <div className='grid-block'>
+                  <h1 className='text-3xl text-gray-400 md:text-5xl font-bold'>
+                    Big Title 3
+                  </h1>
+                  <h2 className='text-xl text-blue-500 md:text-2xl font-light'>
+                    Subtitle in Bold 3
+                  </h2>
+                  <p className='mt-4 text-sm leading-tight'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+
+                  <div className='mt-4 flex justify-end'>
+                    <a
+                      href='/link-3'
+                      className='text-blue-500 hover:underline text-sm md:text-base lg:text-lg'
+                    >
+                      Read More
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 
-            {/* Second Row */}
-            <div className='flex justify-start items-end p-8'>
-              <div className='text-left'>
-                <p className='text-lg md:text-xl'>
-                  Word 1 <span className='mx-2'>•</span> Word 2{" "}
-                  <span className='mx-2'>•</span> Word 3{" "}
-                  <span className='mx-2'>•</span> Word 4
-                </p>
-              </div>
-            </div>
+            <p className='text-lg md:text-xl'>
+              <span className='text-6xl md:text-7xl'>Epic</span>
+              <span className='mx-2 text-blue-500 text-5xl md:text-6xl'>•</span>
+              <span className='text-base md:text-lg'>History</span>
+              <span className='mx-2 text-yellow-600 text-4xl md:text-5xl'>
+                •
+              </span>
+              <span className='text-5xl md:text-6xl'>Novel</span>
+              <span className='mx-2 text-pink-600 text-6xl md:text-7xl'>•</span>
+              <span className='text-2xl md:text-3xl'>Science Fiction</span>
+              <span className='mx-2 text-blue-500 text-5xl md:text-6xl'>•</span>
+              <span className='text-4xl md:text-5xl'>Environment</span>
+              <span className='mx-2 text-yellow-600 text-6xl md:text-7xl'>
+                •
+              </span>
+              <span className='text-sm md:text-base'>Poetry</span>
+              <span className='mx-2 text-pink-600 text-5xl md:text-6xl'>•</span>
+              <span className='text-lg md:text-xl'>Sustainability</span>
+              <span className='mx-2 text-blue-500 text-4xl md:text-5xl'>•</span>
+              <span className='text-3xl md:text-4xl'>Short Stories</span>
+              <span className='mx-2 text-yellow-600 text-6xl md:text-7xl'>
+                •
+              </span>
+              <span className='text-2xl md:text-3xl'>Vi</span>
+              <span className='mx-2 text-pink-600 text-5xl md:text-6xl'>•</span>
+              <span className='text-6xl md:text-7xl'>Veri</span>
+              <span className='mx-2 text-blue-500 text-5xl md:text-6xl'>•</span>
+              <span className='text-4xl md:text-5xl'>Vivus</span>
+              <span className='mx-2 text-pink-600 text-6xl md:text-7xl'>•</span>
+              <span className='text-2xl md:text-3xl'>Vici</span>
+              <span className='mx-2 text-blue-500 text-6xl md:text-7xl'>•</span>
+              <span className='text-lg md:text-xl'>Education</span>
+              <span className='mx-2 text-yellow-600 text-5xl md:text-6xl'>
+                •
+              </span>
+              <span className='text-6xl md:text-7xl'>Word 15</span>
+              <span className='mx-2 text-pink-600 text-6xl md:text-7xl'>•</span>
+              <span className='text-sm md:text-base'>Word 16</span>
+              <span className='mx-2 text-blue-500 text-5xl md:text-6xl'>•</span>
+              <span className='text-base md:text-lg'>Word 17</span>
+              <span className='mx-2 text-yellow-600 text-6xl md:text-7xl'>
+                •
+              </span>
+              <span className='text-3xl md:text-4xl'>Word 18</span>
+            </p>
           </div>
         </div>
       </div>

@@ -25,7 +25,7 @@ test("renders home page and navigates to about page", () => {
   );
 
   // Verify that the home page is rendered
-  expect(screen.getByText(/Big Title/i)).toBeInTheDocument();
+  expect(screen.getByText(/Porto/i)).toBeInTheDocument();
 
   // Simulate navigation by changing the route
   render(
